@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas proyecto</title>
+    <link rel="stylesheet" href="proyectoestilos.css">
+</head>
+
+<body>
+    <div class="menupeliculas">
+            <br>
+            <br>
+            <div align="center"> <img id="img1" src="gera.jpg"> </div>
+            <h1>Gerardo Martinez Lopez</h1>
+            <p><a href=proyecto.html>Estudiante de ingenieria en software</a></p>
+            <hr>
+            <br>
+            <p>Educacion </p>
+            <hr>
+            <p>Hobbies</a></p>
+            <hr>
+            <p>Mis trabajos</p>
+            <hr>
+            <p><a href="peliculas.html">Peliculas</a></p>
+            <hr>
+            <p>Tiempo Libre</p>
+            <hr>
+            <p>Contacto</p>
+            <hr>
+            <img src="facebook.png" align="center">
+            <img src="instagram.png" align="right">
+        </div>
+    <div class="titulopelicula">
+        <h1>Peliculas</h1>
+        <hr>
+        <h6>Les presento mi top 5 de peliculas favoritas.</h6>
+        <img onclick="img1();"id="img1" class="botonagregar" src="agregar.png">
+        <script type="text/javascript">
+            function img1(){
+                prompt('Pelicula');
+            }</script>
+        <img onclick="img2();"id="img2" class="botoneliminar" src="eliminar.png">
+        <script type="text/javascript">
+            function img2(){
+                prompt('Desea Eliminar');
+            }</script>
+    </div>
+    <div class="rectangulo1">
+        <table>
+            <thead>
+                <tr>
+                    <th>Top</th>
+                    <th>Pelicula</th>
+                    <th>Calificacion</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1
+                <th>Capitan america y el soldado del invierno</th>
+                <th>10</th>
+                <th><img src="capitan.png" width=70%></th>
+                </td>
+            </tr>
+            <tr>
+                <td>2
+                <th>Iron man</th>
+                <th>9.5</th>><th><img src="iron.png" width=70%></th>
+                </td>
+            </tr>
+            <tr>
+                <td>3
+                <th>Doctor Strange</th>
+                <th>10</th>><th><img src="strange.png" width=70%></th>
+                </td>
+            </tr>
+            <tr>
+                <td>4
+                <th>Deadpool</th>
+                <th>9</th>><th><img src="deadpool.jpg" width=70%></th>
+                </td>
+            </tr>
+            <tr>
+                <td>5
+                <th>Avengers Endgame</th>
+                <th>9</th>><th><img src="avengers.jpg" width=70%></th>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
